@@ -1,4 +1,4 @@
-import type { Meta, StoryObj } from "@storybook/react";
+import type { Meta } from "@storybook/react";
 
 import { PageContactForm } from "./page-contact-form";
 
@@ -11,9 +11,8 @@ const meta = {
 } satisfies Meta<typeof PageContactForm>;
 
 export default meta;
-type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {
+export const Default = {
   args: {
     formAction: () => {},
     pending: false,
@@ -21,7 +20,7 @@ export const Default: Story = {
   },
 };
 
-export const Loading: Story = {
+export const Loading = {
   args: {
     pending: true,
     formAction: () => {},
@@ -36,7 +35,7 @@ export const Loading: Story = {
   },
 };
 
-export const Error: Story = {
+export const Error = {
   args: {
     pending: false,
     formAction: () => {},
