@@ -90,3 +90,35 @@ If I had more time
 - Form: remove the error message when you start typing into an error input
 - Form: maybe do some zod validation on the client side too
 - Messages Page: style and use Suspense to pull in db entries.
+
+# Brochure Stack 
+
+### Assumptions
+
+- marketing site, mostly static content + some forms (contact, newsletter, maybe light CMS).
+- **Small team or solo dev**, potentially designers involved.
+- **Non-technical stakeholders**, so maintainability and preview ability matter.
+- Needs to be fast, SEO-friendly, accessible, and easy to update.
+
+### Architecture
+<img width="1033" alt="Screenshot 2025-07-07 at 19 45 54" src="https://github.com/user-attachments/assets/1434e6b2-06e2-46a9-9f79-152dc27de856" />
+
+### Frontend
+
+Priorities for the frontend is around speed(NextJS, Vercel, Debugbear), both in terms of performance but also how quickly ideas and content can be published to the site. A key to this is keeping the designs(Figma) close to the component library(Chakra) and having good documentation(Storybook). The goal is to remove friction and resonces needed to make changes and all be referencing the same source of truth. 
+
+### Headless Content
+
+I’d like non-technical people to be comfortable making changes so a CMS that has a good editor and easy to use is key (Storyblok 🙃). For other content such as heavy media, I’d actually priorities the developer experience(cloudinary and MUX). 
+
+### Monitoring And Testing
+
+A requirement for monitoring is that it’s easy to manage. I’ve had a good experience with Rudderstack. It has a many-to-one relationship to many analytics platforms which means you’re just adding tracking once making it easy to manage and also good for performance. 
+
+Testing is critical for marketing pages, a solution that also offers server side testing is ideal. PostHog does both well and also has good developer experience. 
+
+### Marketing
+
+Tracking and imperative to defining success for marketing pages, even if they’re not marketing metrics like conversion things like bouncerate, engagement and funnel drop offs are important to measure too. I prefer to use GTM to pull them the tracking services into the web app. This becomes a good source of truth and also something marketers can manage. 
+
+To improve performance something like party town is a good way to use a web working for third party scripts to keep the site performant.
