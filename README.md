@@ -1,4 +1,4 @@
-# Development task ✨
+# Task 1) Full Stack Contact Form ✨
 
 <img width="1512" alt="Screenshot 2025-07-07 at 15 53 42" src="https://github.com/user-attachments/assets/069b24b5-9250-49c8-a874-c247dd0b3712" />
 
@@ -91,7 +91,7 @@ If I had more time
 - Form: maybe do some zod validation on the client side too
 - Messages Page: style and use Suspense to pull in db entries.
 
-# Brochure Stack 
+# Task 2) Brochure Stack
 
 ### Assumptions
 
