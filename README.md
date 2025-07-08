@@ -102,11 +102,11 @@ If I had more time
 - **Non-technical stakeholders**, so maintainability and preview ability matter.
 - Needs to be fast, SEO-friendly, accessible, and easy to update.
 
-### Architecture
+## Architecture
 <img width="1033" alt="Screenshot 2025-07-07 at 19 45 54" src="https://github.com/user-attachments/assets/89ceb706-8e89-4f5b-81a6-d7bd1931393d" />
 
 
-### Frontend
+## Frontend
 
 Frontend priorities are centered around speed ([Next.js](https://nextjs.org/), [Vercel](https://vercel.com/)), both in terms of performance and how quickly ideas and content can be published to the site. 
 
@@ -114,12 +114,12 @@ A key to this is keeping the designs (Figma) closely aligned with the component 
 
 [DebugBear](https://www.debugbear.com/) is the best tool I’ve found to measure and track performance over-time, unlike other performance dashboards like in Sentry and Vercel that give you collated web vitals over a date range Debugbear gives you full vitals per-day over the course of time.
 
-### Headless Content
+## Headless Content
 
 I'd like non-technical people to be comfortable making changes, so a CMS with a good, easy-to-use editor is key ([Storyblok](https://www.storyblok.com/) 🙃🎉). For other content such as heavy media, I'd actually prioritise the developer experience a bit more ([Cloudinary](https://cloudinary.com/) and [Mux](https://www.mux.com/)).
 
 
-### Monitoring And Tracking
+## Monitoring And Tracking
 
 A requirement for monitoring is that it’s easy to manage. I’ve had a good experience with [Rudderstack](https://www.rudderstack.com/). It has a many-to-one relationship to many analytics and reporting platforms ([Sentry](https://sentry.io/)) which means you’re just adding tracking once making it easy to manage and also good for performance.
 
@@ -127,7 +127,7 @@ Testing is critical for marketing pages, a solution that also offers server side
 
 [Amplitude](https://amplitude.com/) is great for analysing funnels and tracking very detailed nuanced behaviors and conversion using custom events.
 
-### Marketing
+## Marketing
 
 Tracking is imperative to defining success for marketing pages. Even metrics that aren't directly related to conversion such as bounce rate, engagement, and funnel drop-offs are important to measure. I prefer using [Google Tag Manager (GTM)](https://tagmanager.google.com/) to integrate tracking services ([Google Analytics 4 (GA4)](https://marketingplatform.google.com/about/analytics/), [Meta Pixel (formerly Facebook Pixel)](https://www.facebook.com/business/tools/meta-pixel)) into the web app. This creates a reliable source of truth that marketers can also manage. 
 
