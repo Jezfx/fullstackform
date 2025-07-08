@@ -95,7 +95,7 @@ If I had more time
 
 # Task 2) Brochure Stack
 
-### Assumptions
+## Assumptions
 
 - marketing site, mostly static content + some forms (contact, newsletter, maybe light CMS).
 - **Small team or solo dev**, potentially designers involved.
@@ -104,6 +104,8 @@ If I had more time
 
 ### Architecture
 <img width="1033" alt="Screenshot 2025-07-07 at 19 45 54" src="https://github.com/user-attachments/assets/1434e6b2-06e2-46a9-9f79-152dc27de856" />
+
+## Overview
 
 ### Frontend
 
@@ -124,3 +126,30 @@ Testing is critical for marketing pages, a solution that also offers server side
 Tracking and imperative to defining success for marketing pages, even if they’re not marketing metrics like conversion things like bouncerate, engagement and funnel drop offs are important to measure too. I prefer to use GTM to pull them the tracking services into the web app. This becomes a good source of truth and also something marketers can manage. 
 
 To improve performance something like party town is a good way to use a web working for third party scripts to keep the site performant.
+
+## List
+
+### **Frontend**
+- [Vercel](https://vercel.com/)
+- [Next.js](https://nextjs.org/)
+- [Chakra UI](https://chakra-ui.com/)
+- [Storybook](https://storybook.js.org/)
+- [DebugBear](https://www.debugbear.com/)
+- [Storyblok](https://www.storyblok.com/)
+- [Cloudinary](https://cloudinary.com/)
+- [Mux](https://www.mux.com/)
+
+### **Monitoring**
+- [Rudderstack](https://www.rudderstack.com/)
+- [Sentry](https://sentry.io/)
+- [PostHog](https://posthog.com/)
+- [Amplitude](https://amplitude.com/)
+
+### **Marketing**
+- [Google Tag Manager (GTM)](https://tagmanager.google.com/)
+- [Google Analytics 4 (GA4)](https://marketingplatform.google.com/about/analytics/)
+- [Dixa](https://www.dixa.com/)
+- [Klaviyo](https://www.klaviyo.com/)
+- [Fullstory](https://www.fullstory.com/)
+- [Meta Pixel (formerly Facebook Pixel)](https://www.facebook.com/business/tools/meta-pixel)
+- [Party Town)](https://github.com/QwikDev/partytown)
