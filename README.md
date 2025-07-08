@@ -103,7 +103,8 @@ If I had more time
 - Needs to be fast, SEO-friendly, accessible, and easy to update.
 
 ### Architecture
-<img width="1033" alt="Screenshot 2025-07-07 at 19 45 54" src="https://github.com/user-attachments/assets/1434e6b2-06e2-46a9-9f79-152dc27de856" />
+<img width="1033" alt="Screenshot 2025-07-07 at 19 45 54" src="https://github.com/user-attachments/assets/89ceb706-8e89-4f5b-81a6-d7bd1931393d" />
+
 
 ### Frontend
 
