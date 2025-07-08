@@ -2,8 +2,7 @@
 
 ### 🎥 [Video walk through ](https://www.loom.com/share/93591ed6526948af9088d98c8938b92c?sid=4e450983-7a63-48fb-91c9-56b4813b7785)
 
-
-<img width="1512" alt="Screenshot 2025-07-07 at 15 53 42" src="https://github.com/user-attachments/assets/069b24b5-9250-49c8-a874-c247dd0b3712" />
+<img width="1512" alt="Screenshot 2025-07-07 at 15 53 42" src="https://github.com/user-attachments/assets/b9fd188f-2e29-45f5-8f6c-464121b904bb" />
 
 ## Links
 
@@ -35,7 +34,7 @@
 
 ## Architecture
 
-<img width="1087" alt="Screenshot 2025-07-07 at 15 54 41" src="https://github.com/user-attachments/assets/7a169c50-8a2a-449f-a253-6b24946ce05f" />
+<img width="825" alt="Screenshot 2025-07-08 at 06 05 14" src="https://github.com/user-attachments/assets/cd0388a9-55b0-4966-8f2e-eec507037524" />
 
 ## To Run Locally
 
