@@ -105,51 +105,31 @@ If I had more time
 ### Architecture
 <img width="1033" alt="Screenshot 2025-07-07 at 19 45 54" src="https://github.com/user-attachments/assets/1434e6b2-06e2-46a9-9f79-152dc27de856" />
 
-## Overview
-
 ### Frontend
 
-Priorities for the frontend is around speed(NextJS, Vercel, Debugbear), both in terms of performance but also how quickly ideas and content can be published to the site. A key to this is keeping the designs(Figma) close to the component library(Chakra) and having good documentation(Storybook). The goal is to remove friction and resonces needed to make changes and all be referencing the same source of truth. 
+Frontend priorities are centered around speed ([Next.js](https://nextjs.org/), [Vercel](https://vercel.com/)), both in terms of performance and how quickly ideas and content can be published to the site. 
+
+A key to this is keeping the designs (Figma) closely aligned with the component library ([Chakra UI](https://chakra-ui.com/)) and maintaining good documentation ([Storybook](https://storybook.js.org/)). The goal is to remove friction and resources needed to make changes while ensuring everyone references the same source of truth.
+
+[DebugBear](https://www.debugbear.com/) is the best tool I’ve found to measure and track performance over-time, unlike other performance dashboards like in Sentry and Vercel that give you collated web vitals over a date range Debugbear gives you full vitals per-day over the course of time.
 
 ### Headless Content
 
-I’d like non-technical people to be comfortable making changes so a CMS that has a good editor and easy to use is key (Storyblok 🙃). For other content such as heavy media, I’d actually priorities the developer experience(cloudinary and MUX). 
+I'd like non-technical people to be comfortable making changes, so a CMS with a good, easy-to-use editor is key ([Storyblok](https://www.storyblok.com/) 🙃🎉). For other content such as heavy media, I'd actually prioritise the developer experience a bit more ([Cloudinary](https://cloudinary.com/) and [Mux](https://www.mux.com/)).
 
-### Monitoring And Testing
 
-A requirement for monitoring is that it’s easy to manage. I’ve had a good experience with Rudderstack. It has a many-to-one relationship to many analytics platforms which means you’re just adding tracking once making it easy to manage and also good for performance. 
+### Monitoring And Tracking
 
-Testing is critical for marketing pages, a solution that also offers server side testing is ideal. PostHog does both well and also has good developer experience. 
+A requirement for monitoring is that it’s easy to manage. I’ve had a good experience with [Rudderstack](https://www.rudderstack.com/). It has a many-to-one relationship to many analytics and reporting platforms ([Sentry](https://sentry.io/)) which means you’re just adding tracking once making it easy to manage and also good for performance.
+
+Testing is critical for marketing pages, a solution that also offers server side testing is ideal. [PostHog](https://posthog.com/) does both well and also has a great developer experience.
+
+[Amplitude](https://amplitude.com/) is great for analysing funnels and tracking very detailed nuanced behaviors and conversion using custom events.
 
 ### Marketing
 
-Tracking and imperative to defining success for marketing pages, even if they’re not marketing metrics like conversion things like bouncerate, engagement and funnel drop offs are important to measure too. I prefer to use GTM to pull them the tracking services into the web app. This becomes a good source of truth and also something marketers can manage. 
+Tracking is imperative to defining success for marketing pages. Even metrics that aren't directly related to conversion such as bounce rate, engagement, and funnel drop-offs are important to measure. I prefer using [Google Tag Manager (GTM)](https://tagmanager.google.com/) to integrate tracking services ([Google Analytics 4 (GA4)](https://marketingplatform.google.com/about/analytics/), [Meta Pixel (formerly Facebook Pixel)](https://www.facebook.com/business/tools/meta-pixel)) into the web app. This creates a reliable source of truth that marketers can also manage. 
 
-To improve performance something like party town is a good way to use a web working for third party scripts to keep the site performant.
+The email service can sometimes double up as a customer CRM, and [Klaviyo](https://www.klaviyo.com/) does a good job of that with great site integrations and testing. [Dixa](https://www.dixa.com/) helps handle quick customer inquiries if there's a team to answer them and [Fullstory](https://www.fullstory.com/) to watch and monitor user behaviors and patterns.
 
-## List
 
-### **Frontend**
-- [Vercel](https://vercel.com/)
-- [Next.js](https://nextjs.org/)
-- [Chakra UI](https://chakra-ui.com/)
-- [Storybook](https://storybook.js.org/)
-- [DebugBear](https://www.debugbear.com/)
-- [Storyblok](https://www.storyblok.com/)
-- [Cloudinary](https://cloudinary.com/)
-- [Mux](https://www.mux.com/)
-
-### **Monitoring**
-- [Rudderstack](https://www.rudderstack.com/)
-- [Sentry](https://sentry.io/)
-- [PostHog](https://posthog.com/)
-- [Amplitude](https://amplitude.com/)
-
-### **Marketing**
-- [Google Tag Manager (GTM)](https://tagmanager.google.com/)
-- [Google Analytics 4 (GA4)](https://marketingplatform.google.com/about/analytics/)
-- [Dixa](https://www.dixa.com/)
-- [Klaviyo](https://www.klaviyo.com/)
-- [Fullstory](https://www.fullstory.com/)
-- [Meta Pixel (formerly Facebook Pixel)](https://www.facebook.com/business/tools/meta-pixel)
-- [Party Town)](https://github.com/QwikDev/partytown)
